@@ -1,73 +1,78 @@
 body {
-   background-color:#ffffff;
-    }
-.wraper{
-    width: 960px    
-    }
+    background-color: #ffffff;
+}
+
+.container {
+    width: 960px;
+}
+
 header {
     height: 130px;
     width: 100%;
-    position:relative;
-    }
+    position: relative;
+}
+
 h1 {
     font-style: normal;
     font-family: "Courier New", Courier, monospace;
     font-size: 60px;
     font-weight: 400;
-    text-align: center; 
+    text-align: center;
     line-height: 130px;
-    }
-nav{
+}
+
+nav {
     margin: 0;
     padding: 0;
     text-align: center;
     margin-bottom: 20px;
 }
+
 nav a {
     display: inline-block;
-    padding:10px;
-    background-color: #b3d9ff; 
+    padding: 10px;
+    background-color: #b3d9ff;
     text-align: center;
     text-decoration: none;
     font-family: "Courier New", Courier, monospace;
     color: black;
 }
+
 nav a:link {
-     width: 140px;
-     text-decoration: none;
-     padding-top: 5px;
-	 padding-right: 5px;
-	 padding-bottom: 5Px;
-	 padding-left:5px;
-     margin: 0px
+    width: 140px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: #87CEEB;
-    }
+}
 
 #carousel-main {
     margin: auto;
-    width: 60%;
-    height: 400px;
     margin-bottom: 20px;
     overflow: hidden;
-    }
+}
 
 #container {
     position: relative;
     height: 300px;
     margin-top: 20px
 }
+
 footer a {
-    display:inline;
+    display: inline;
     text-decoration: none;
     font-family: "Courier New", Courier, monospace;
-    color: black;    
+    color: black;
 }
-form{
-   
+
+form {
     width: 300px;
     margin: 0 auto;
-  }
+}
+
 table td {
     padding-bottom: 10px;
+}
