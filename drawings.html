@@ -5,65 +5,70 @@
         <title>Nenad Pantic Art</title>
         <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="css/mystyles.css" rel="stylesheet">
-        <script src="vendor/bootstrap/bootstrap.js"></script>
     </head>
     <body>
         <div class="container">
             <header>
                 <h1>Nenad Pantic Art</h1>
             </header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="illustrations.html">Illustrations</a>
-                <a href="concept_art.html">Concept Art</a>
-                <a href="guest_book.html">Guest Book</a>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed"
+                                data-toggle="collapse"
+                                data-target="#navbar-main"
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-main">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="illustrations.html">Illustrations</a></li>
+                            <li><a href="drawings.html">Drawings</a></li>
+                            <li><a href="guest_book.html">Guest Book</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
             </nav>
             <div class="gallery">
                 <div class="row">
-                    <div class="col-md-4 col-lg-3">
-                        <img src="images/thumbnails/dragon.jpg" width="220" height="220" alt="image1.jpg">
+                    <a class="col-sm-6 col-md-4 col-lg-3" href="images/full/factory.jpg" target="_blank">
+                        <img src="images/thumbnails/factory.jpg" width="220" height="220"  alt="image1.jpg">
                         <p>Ovo je slika</p>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <img src="images/thumbnails/factory.jpg" width="220" height="220" alt="image1.jpg">
+                    </a>
+                    <a class="col-sm-6 col-md-4 col-lg-3" href="images/full/house.jpg" target="_blank">
+                        <img src="images/thumbnails/house.jpg" width="220" height="220"  alt="image1.jpg">
                         <p>Ovo je slika</p>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <img src="images/thumbnails/mowgli-elephants.jpg" width="220" height="220" alt="image1.jpg">
+                    </a>
+                    <a class="col-sm-6 col-md-4 col-lg-3" href="images/full/mowgli-elephants.jpg" target="_blank">
+                        <img src="images/thumbnails/mowgli-elephants.jpg" width="220" height="220"  alt="image1.jpg">
                         <p>Ovo je slika</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <img src="images/thumbnails/macavuko.jpg" width="220" height="220" alt="image1.jpg">
+                    </a>
+                    <a class="col-sm-6 col-md-4 col-lg-3" href="images/full/nenad-pantic-summoner-slug-1200.jpg" target="_blank">
+                        <img src="images/thumbnails/nenad-pantic-summoner-slug-1200.jpg" width="220" height="220"  alt="image1.jpg">
                         <p>Ovo je slika</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-lg-3">
-                        <img src="images/thumbnails/dragon.jpg" width="220" height="220" alt="image1.jpg">
-                        <p>Ovo je slika</p>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <img src="images/thumbnails/factory.jpg"  width="220" height="220" alt="image1.jpg">
-                        <p>Ovo je slika</p>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <img src="images/thumbnails/mowgli-elephants.jpg" width="220" height="220" alt="image1.jpg">
-                        <p>Ovo je slika</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <img src="images/thumbnails/macavuko.jpg"  width="220" height="220" alt="image1.jpg">
-                        <p>Ovo je slika</p>
-                    </div>
+                    </a>
                 </div>
             </div>
             <footer>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="illustrations.html">Illustrations</a>
-                <a href="drawings.html">Concept Art</a>
-                <a href="guest_book.html">Guest Book</a>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="illustrations.html">Illustrations</a>
+                    <a href="drawings.html">Drawings</a>
+                    <a href="guest_book.html">Guest Book</a>
+                </div>
+                <p>
+                    <small>©Copyright Nenad Pantic</small>
+                </p>
             </footer>
         </div>
+        <script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+        <script src="vendor/bootstrap/bootstrap.js"></script>
     </body>
 </html>

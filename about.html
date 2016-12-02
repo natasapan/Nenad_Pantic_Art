@@ -5,19 +5,35 @@
         <title>Nenad Pantic Art</title>
         <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="css/mystyles.css" rel="stylesheet">
-        <script src="vendor/bootstrap/bootstrap.js"></script>
     </head>
     <body>
-        <div class="wrapper">
+        <div class="container">
             <header>
                 <h1>Nenad Pantic Art</h1>
             </header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="illustrations.html">Illustrations</a>
-                <a href="drawings.html">Concept Art</a>
-                <a href="guest_book.html">Guest Book</a>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed"
+                                data-toggle="collapse"
+                                data-target="#navbar-main"
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-main">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="illustrations.html">Illustrations</a></li>
+                            <li><a href="drawings.html">Drawings</a></li>
+                            <li><a href="guest_book.html">Guest Book</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
             </nav>
             <article>
             <div class="title"><h2>Nenad Pantic and his work</h2></div>    
@@ -31,15 +47,24 @@
                         <p>Today, Nenad lives with his family in Greystones, Ireland and works as an IT expert.</p>        
                     </div>
                 </div>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qxS7EsRAEcw" frameborder="0" allowfullscreen></iframe>
+                </div>
             </article>
             <footer>
-                <p>©Copyright ©Nenad Pantic</p>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="illustrations.html">Illustrations</a>
-                <a href="drawings.html">Concept Art</a>
-                <a href="guest_book.html">Guest Book</a>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="illustrations.html">Illustrations</a>
+                    <a href="drawings.html">Drawings</a>
+                    <a href="guest_book.html">Guest Book</a>
+                </div>
+                <p>
+                    <small>©Copyright Nenad Pantic</small>
+                </p>
             </footer>
         </div>
+        <script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+        <script src="vendor/bootstrap/bootstrap.js"></script>
     </body>
 </html>
