@@ -43,17 +43,23 @@
                     <table>
                         <tr>
                             <td>Your name:</td>
-                            <td><input type="text" name="name id="name></td>
+                            <td>
+                                <input type="text" name="name" id="form-name">
+                            </td>
                         </tr>
                         <tr>
                             <td>Your e-mail:</td>
-                            <td><input type="email" name="email" id="email"></td>
+                            <td>
+                                <input type="email" name="email" id="form-email">
+                            </td>
                         <tr>
-                            <td >Leave me a message:</td>
-                            <td><textarea maxlength="100"></textarea></td>
+                            <td>Leave me a message:</td>
+                            <td>
+                                <textarea id="form-message" maxlength="100"></textarea>
+                            </td>
                         </tr>
                     </table>
-                    <input type="submit" value="Submit">
+                    <input type="button" value="Submit" id="form-submit">
                 </form>
             </div>
             <footer>
@@ -71,5 +77,6 @@
         </div>
         <script src="vendor/jquery/jquery-3.1.1.min.js"></script>
         <script src="vendor/bootstrap/bootstrap.js"></script>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
